@@ -1,0 +1,5 @@
+ndspy>=4.2
+keystone-engine
+Pillow
+# 분석 도구(tools/analysis, work/an)에만: capstone
+# 에뮬레이터 시험(tools/emutest.py)을 하려면: py-desmume

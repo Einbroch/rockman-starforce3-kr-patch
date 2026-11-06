@@ -1,0 +1,25 @@
+# 롬(원본·패치본)과 롬 압축 파일, PC판 한글패치 원본은 공개 저장소에 올리지 않는다
+*.nds
+*.zip
+*.7z
+*.[0-9][0-9][0-9]
+*.z[0-9][0-9]
+*.pak
+# 추출물·중간 결과·빌드 결과
+work/
+build/
+__pycache__/
+
+# 개인 세이브 파일
+Save/
+*.duc
+*.sav
+*.dsv
+Shots/
+work/
+
+# 분석 중간 결과(다시 만들 수 있다)
+script/align_doubt.txt
+script/speaker_check.txt
+script/en_left.txt
+script/jp_left.txt
